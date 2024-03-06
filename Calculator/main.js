@@ -37,7 +37,7 @@ while(tryAgain){
         for(let i=0; i<6; i++){
             if(op==operationInputs[i]){
                 if(i==0){
-                    result = numberOne + numberTwo;
+                    result = Number(numberOne) + Number(numberTwo);
                 }
                 if(i==1){
                     result = numberOne - numberTwo;
