@@ -3,7 +3,7 @@ const welcomeMessage = "Welcome to the Rock, Paper and Scissors game! To play th
 const pickOption = "Pick one: 1) Rock, 2) Paper, 3) Scissors";
 const failedInput = "Wrong input, try again";
 let tryAgain = true;
-
+alert(welcomeMessage);
 while(tryAgain){
     let playerOne = prompt("Player 1\n" + pickOption);
     while (!inputs.includes(playerOne)) {
