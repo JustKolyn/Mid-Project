@@ -29,8 +29,8 @@ while(tryAgain){
             alert("You cannot divide by 0");
             break;  
         }
-        if(numberOne<0 && -1<numberTwo<0 && op=="**" ||numberOne<0 && 0<numberTwo<1 && op=="**"){
-            alert("Negative numbers cannot be powered by number in (-1;0)U(0;1) interval.");
+        if(numberOne<0 && -1<numberTwo<0 && op=="**" || numberOne<0 && 0<numberTwo<1 && op=="**"){
+            alert("Negative numbers cannot be powered by numbers in (-1;0)U(0;1) interval.");
             break;
         }
         let result = 0;
